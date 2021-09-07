@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cek Nilai Ulangan</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        .form-control {
+            width: 50%;
+        }
+    </style>
+</head>
+<script src="script.js">
+</script>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+
+            <h1 class="text-center mx-auto">Cek Nilai Ulangan</h1>
+
+            <div class="col-sm-6">
+            
+            </div>
+
+            <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-header font-italic">
+                           Nilai
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-title">Silahkan Input Nilai</h6>
+                            <input type="text" class="form-control" id="nilai" placeholder="Input Nilai">
+                            <!-- event yang dipakai onClick -->
+                            <button type="button" class="btn btn-warning mt-3" onclick="cek()"> 
+                               Cek</button>
+                            <br><br>
+                            <p>You <span id="hasil"> </span> the exam </p>
+                        </div>
+                    </div>
+                </div>
+        
+        </div>
+    </div>
+</body>
+
+</html>
